@@ -28,8 +28,8 @@ body{
 }
 
 .box {
-	width: 250px;
-	height: 125px;
+	width: 400px;
+	height: 250px;
 	background: #fff;
 	display: flex;
 	flex-direction: row;
@@ -45,7 +45,7 @@ form, label {
 	display: block;
   	padding: 5px;
    	color: #FFF;
-  	text-align: right;
+  	text-align: left;
 }
 
 input {

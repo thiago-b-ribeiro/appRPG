@@ -27,9 +27,9 @@
 			
 				<form action="" method="post">
 				
-					<label for="email">E-mail: 
+					<label for="email">E-mail: </label>
 					<input type="email" name="email" id="email">
-					</label>
+					
 					
 					<label for="senha">Senha: 
 					<input type="password" name="senha" id="senha">
@@ -38,7 +38,7 @@
 					<br>
 					
 					<input type="submit" value="Entrar">
-					<button formaction="jsp/cadastrarUsuario.jsp">Cadastrar</button>
+					<input type="button" value="Cadastrar" onClick="javascript:window.location='ServletCadastrarUsuario'"/>
 					<input type="reset" value="Limpar">
 				
 				</form>
